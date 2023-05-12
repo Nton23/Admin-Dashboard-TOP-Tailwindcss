@@ -62,23 +62,42 @@
                 </div>
             </div>
         </section>
-        <div class="border-2 border-green-600 col-start-2 col-end-3">
+        <div class="col-start-2 col-end-3 grid" style="grid-template-rows: 20% 80%;">
             <!--Search & Features container-->
-            <section>
+            <section class="row-start-1 row-end-2">
                 <!--Search & Account noti container-->
-                <div>
+                <div class="mx-10 my-5 border border-green-600 flex justify-between">
                     <!--Search container-->
-                    <div></div>
+                    <div class="flex items-center gap-x-5 border border-blue-500 w-[70%]">
+                        <!--Search Bar-->
+                        <button>
+                            <img src="Images/icons8-search.svg" alt="" class="w-10 h-10">
+                        </button>
+                        <input type="text" class="bg-gray-400 rounded-full h-12 w-[80%]">
+                    </div>
                     <!--Account noti container-->
-                    <div></div>
+                    <div class="border border-red-600 flex items-center gap-x-5 justify-between w-[30%]">
+                        <img src="Images/icons8-bell-48.png" alt="noti" class="w-10 h-10" />
+                        <img src="Images/icons8-avatar-80.png" alt="avatar" class="w-12 h-12" />
+                        <h3 class="font-bold text-3xl">Ton Nguyen</h3>
+                    </div>
+                </div>
+                <div class="mx-10 my-5 border border-blue-600">
+                    <div>
+                        <img src="Images/icons8-avatar-80.png" alt="">
+                        <div>
+                            <h5>Hi, there</h5>
+                            <h3>Ton Nguyen (@gmail)</h3>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!--Posters container-->
-            <section>
+            <section class="row-start-2 row-end-3 border-4 border-red-600">
                 <!--Project posters container-->
                 <div>
                     <!--heading/title-->
-                    <h3></h3>
+                    <h2></h2>
                     <!--Poster container-->
                     <div></div>
                 </div>
